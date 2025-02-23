@@ -5,4 +5,13 @@ a.active {
 
 body{
     text-align: center;
+    background-color: rgb(50, 193, 193);
+}
+
+button{
+    border-style: none;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 2em;
 }
