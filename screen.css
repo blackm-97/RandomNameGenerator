@@ -1,11 +1,39 @@
-/* Add screen styles below */
+:root{
+    --main-color: #90FCF9;
+    --secondary-color: #63B4D1;
+    --tertiary-color: #7699D4;
+    --highlight: #9448BC;
+    --text-color: #34043d;
+}
+
+
 a.active {
     font-weight: bold;
 }
 
 body{
+    color: var(--text-color);
     text-align: center;
-    background-color: rgb(50, 193, 193);
+    background-color: var(--main-color);
+    width: 800px;
+    margin: auto;
+}
+
+h1{
+    font-size: 4em;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 4em;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 40px;
 }
 
 button{
@@ -14,4 +42,10 @@ button{
     height: 100px;
     width: 200px;
     font-size: 2em;
+    color: var(--text-color);
+    background-color: var(--highlight);
+}
+
+button:hover{
+    background-color: var(--tertiary-color);
 }
